@@ -1,0 +1,57 @@
+.contact {
+    font-family: geologica;
+    background-color: #040464;
+    height: 40vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .input {
+        background-color: white;
+        width: 60rem;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: 0 8rem 8rem 0;
+
+        > #heading {
+            width: 100%;
+            padding: 2rem;
+            text-align: left;
+        }
+        
+        form{
+            height: 50%;
+            width: 30rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: .5rem;
+            }
+            input {
+                padding: .5rem;
+                width: 20rem;
+            }
+
+            #submit {
+                width: 10rem;
+                margin-top: 2rem;
+                background-color: #514aff;
+                color: white;
+                font-weight: bold;
+                border-radius: 5px;
+                padding: .5rem;
+                border: 1px solid #514aff;
+            }
+        }
+    }
+}

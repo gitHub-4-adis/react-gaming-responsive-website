@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'gamingFont';
+    src: url('../assets/gamingFont.ttf') format('truetype');
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: gamingFont;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(229, 229, 229);
+
+    > h1 {
+        font-size: 3.5vmin;
+        margin: 0 1rem;
+        color: black;
+    }
+    
+    > ul {
+        display: flex;
+        > li {
+            text-align: center;
+            > a {
+                margin: 0 .5rem;
+                font-size: 1rem;
+                color: black;
+            }
+        }
+        
+    }
+    
+}

@@ -1,0 +1,104 @@
+
+
+@media screen and (max-width: 826px) {
+    .home1 {
+        > main {
+            align-items: center;
+            > h1 {
+                font-size: 100rem;
+            }
+        }
+    }
+    
+    .home4>div, .home3 > div {
+        padding: 2rem;
+        border-radius: 50px;
+    }
+
+    .home2 {
+        flex-direction: column;
+        padding: 20rem 2rem;
+        min-height: 60vh;
+        
+        > div {
+            width: 100%;
+        }
+    }
+
+    .home3>div{
+        width: 100vw;
+    }
+
+    .contact {
+        height: 80%;
+        padding: 2rem;
+        .input {
+            width: 90%;
+            border-radius: 0;
+            #heading {
+                text-align: center;
+            }
+            form {
+                div {
+                    width: 80vw;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    input {
+                        width: 100%;
+                        margin-top: .5rem;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+    
+    nav {
+        padding-left: 0;
+        padding-right: 0;
+        > h1 {
+            display: none;
+        }
+        > ul {
+            width: 100%;
+            justify-content: space-around;
+            li > a {
+                font-size: 3.25vmin;
+                margin: 0;
+            }
+        }
+    }
+    
+    footer {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        > div {
+            margin-bottom: 2rem;
+        }
+
+        .f-left>p {
+            font-size: 4vmin;
+        }
+        .f-right> p {
+            font-size: 4vmin;
+        }
+    }
+}
+
+// @media screen and (min-width: 826px) {
+//     .contact  {
+//         height: 100vw;
+//     }
+// }
+
+@media screen and (min-width: 640px) and (max-width: 769px) {
+    .contact > .input > form div {
+        width: 60vw;
+        background-color: green;
+    }
+    
+}
