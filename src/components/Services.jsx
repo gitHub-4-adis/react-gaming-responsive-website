@@ -16,7 +16,6 @@ const Services = () => {
       infiniteLoop
       autoPlay
       showStatus={false}
-      // showArrows={false}
       showThumbs={false}
       interval={2000}
 
